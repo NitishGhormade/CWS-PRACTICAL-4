@@ -1,0 +1,80 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+.calculator {
+padding: 10px;
+border-radius: 1em;
+height: 380px;
+width: 400px;
+margin: auto;
+background-color: #191b28;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px
+6px 6px;
+background-color:darkslategrey;
+}
+.display-box {
+font-family: 'Orbitron', sans-serif;
+background-color: #dcdbe1;
+border: solid black 0.5px;
+color: black;
+border-radius: 5px;
+width: 100%;
+height: 80%;
+border-radius:20px;
+background-color:silver;
+text-align:center;
+font-size:20px;
+}
+#btn {
+background-color: #fb0066;
+}
+
+
+@keyframes example {
+   0% {background-color: red;}
+   25% {background-color: pink;}
+   50% {background-color: orange;}
+   75% {background-color: aquamarine;}
+   100% {background-color: powdergreen;}
+   
+} 
+
+input[type=button] {
+font-family: 'Orbitron', sans-serif;
+background-color: aquamarine;
+color: prple;
+border: solid black 0.5px;
+width: 100%;
+border-radius: 5px;
+height: 70%;
+outline: none;
+border-radius:40px;
+font-weight:bold;
+
+
+
+
+/* The element to apply the animation to */
+ 
+  
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+
+}
+
+input:active[type=button] {
+background: #e5e5e5;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+body{
+ background-color: black;
+}
+
+
+
+
